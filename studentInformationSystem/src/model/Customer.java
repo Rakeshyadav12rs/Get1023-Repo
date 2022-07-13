@@ -3,6 +3,12 @@ package model;
 public class Customer {
 	int customerId;
 	String customerName;
+	int customerAge;
+	
+	public int getCustomerAge() {
+		return customerAge;
+		
+	}
 	public int getCustomerId() {
 		return customerId;
 	}
